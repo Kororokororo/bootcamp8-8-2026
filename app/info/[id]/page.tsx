@@ -1,10 +1,10 @@
 import React from 'react'
 
-const infoParamPage = async ({ params }) => {
-    const { id } = await params;
+const infoParamPage = async ({ params }: { params: Promise<{ id: string }> }) => {
+  const { id } = await params;
   return (
     <>
-    <p>inforParamPage : {id}</p>
+      <p>infoParamPage : {id}</p>
     </>
   );
 };
