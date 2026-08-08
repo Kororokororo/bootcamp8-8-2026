@@ -7,7 +7,7 @@ const page = () => {
   return (
   <>
       <h1>Hello</h1>
-      <p>Name : Arm</p>
+      <p>Name : Mind</p>
     </>
   )
 }
